@@ -1,0 +1,127 @@
+header{
+
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: "Montserrat";
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(52, 68, 88);
+    padding: 20px 90px;
+}
+.container {
+    padding: 70px 100px;
+}
+.project_title {
+    font-size: 50px;
+    font-family: "Bebas Neue";
+    color: rgb(52, 68, 88);
+    font-weight: bold;
+    line-height: 0.081;
+    text-align: center;  
+    margin-bottom: 40px;
+}
+.search{
+	font-size: 30px;
+    font-family: "Bebas Neue";
+    line-height: 0.081;
+    text-align: center;  
+    margin-bottom: 40px;
+}
+.posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 150px;
+
+    /* align-items: center; */
+}
+.post {
+    margin: 15px;
+}
+.post_title {
+    font-size: 22px;
+    font-family: "Montserrat";
+    /* padding-left: 20px; */
+    color: rgb(168, 56, 58);
+    font-style: italic;
+    text-align: left;
+    text-shadow:
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+     -1px 1px 0 #fff,
+      1px 1px 0 #fff;
+      font-weight: bold;
+}
+
+.post_title:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
+.post{
+	background-color: rgb(52, 68, 88);
+    color:white;
+    padding: 25px 30px;
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.post_content{
+	display: flex;
+	justify-content: space-between;
+	 flex-direction: row;
+}
+.post_download{
+	 padding-left: 100px;
+	 padding-top: 10px;
+    font-size: 22px;
+}
+.post_download a{
+    color:black;
+}
+
+.upload-box-label {
+    font-size: 15px;
+    font-family: "Montserrat";
+    color: rgb(52, 68, 88);
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.footer {
+    text-align: center;
+    font-family: "Bebas Neue";
+    width: 100%;
+    background-color: rgb(52, 68, 88);
+    position: relative;
+    color: white;
+    padding: 25px 0;
+    left:0;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 20px;
+    bottom: 0;
+}
+.pagination{
+            display: flex;
+            padding-left: 100px;
+
+        }
+.pagination li{
+    margin-right: 40px;
+color:red;
+}
